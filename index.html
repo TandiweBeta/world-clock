@@ -4,45 +4,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="src/styles.css">
-  <title>world-clock- Tandiwe Beta</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
+    <title>world-clock- Tandiwe Beta</title>
 </head>
 <body>
   <div class="container">
   <header>
     <h1>World clock</h1>
   </header>
-    <select>
+    <select id="city">
       <option value="">Select a City...</option>
-      <option value="">Johannesburg</option>
-      <option value="">London</option>
-      <option value="">Sydney</option>
+        <option value="current">My current Location</option>
+      <option value=" johannesburg">Johannesburg</option>
+      <option value="london">London</option>
+      <option value="sydney">Sydney</option>
     </select>
-    <div class="city">
+
+    <div id="cities">
+    <div class="city" id="capetown">
       <div>
       <h2> Capetown</h2>
-       <div class="date">May 2024</div>
+       <div class="date" id="date"></div>
        </div>
-       <div class="time">11:37:18 <small> AM </small></div>
-    </div>
+       <div class="time" id="time"> <small> AM </small></div>
+  </div>
    
-     <div class="city">
-      <div>
+     <div class="city" id="tokyo">
+     <div>
       <h2> Tokyo</h2>
-       <div class="date">May 2024</div>
+       <div class="date" id="date"></div>
       </div>
-       <div class="time">15:45:18 <small>PM</small></div>
+       <div class="time" id="time"> <small>PM</small></div>
        </div>
-     <div class="city">
+
+     <div class="city" id="paris"> 
       <div>
       <h2> Paris</h2>
-      <div class="date">May 2024</div>
+      <div class="date" id="date" id="date"></div>
       </div>
-       <div class="time">15:45:18 <small>PM</small></div>
+       <div class="time" id="time" id="time"> <small>PM</small></div>
     </div>
    </div>
+   </div>
   <footer>
-    This project was coded by<strong> Tandiwe Beta </strong>and is hosted on
-    <a href="https://world-clocktandi.netlify.app/" target="_blank"> 
+    This project was coded by
+    <a href="" target="_blank">
+    <strong> Tandiwe Beta </strong> </a>and is hosted on
+    <a href="https://world-clocktandi.Netlify.app/" target="_blank"> 
     <strong> Netlify </strong> </a> and open sourced on
     <a href="https://github.com/TandiweBeta/world-clock" target="_blank"><strong> Github</strong></a>
   </footer>

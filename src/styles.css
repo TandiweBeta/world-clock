@@ -13,6 +13,7 @@ body{
   h1{
   text-align: center;
   font-size:36px;
+   
  }
 }
 select{
@@ -21,12 +22,14 @@ select{
   padding: 8px;
   font-size: 20px;
   border-radius: 8px;
+  background-color: rgb(200, 185, 214); 
+  color: white;
 }
 .city{
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+  border-bottom: 1px dashed rgba(200, 185, 214, 0.3);
   padding: 5px 0;
 }
 .city:last-child{
