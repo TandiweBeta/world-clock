@@ -1,3 +1,58 @@
 body{
   background: rgb(200, 185, 214);
+  font-family: sans-serif;
 }
+.container{
+  background: white;
+  max-width: 500px;
+  margin:40px  auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: (100, 100,111, 0.4)0px 7px 29px 0px;
+
+  h1{
+  text-align: center;
+  font-size:36px;
+ }
+}
+select{
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+.city{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+  padding: 5px 0;
+}
+.city:last-child{
+  border: none;
+  padding-bottom: 0
+}
+h2{
+font-size: 30px;
+margin-top: 8px;  
+
+}
+.time{
+  font-size: 46px;
+  font-weight: bold;
+}
+.time small{
+  font-size: 16px;
+  vertical-align: middle;
+}
+.date{
+  opacity: 0.8;
+  padding-left: 2px;
+}
+footer{
+text-align: center;
+ font-size:14px;
+ line-height: 0.1;
+}
+ 
