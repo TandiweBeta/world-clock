@@ -1,5 +1,5 @@
 body{
-  background: rgb(200, 185, 214);
+  background: linear-gradient(109.8deg, rgb(62, 5, 116) -5.2%, rgb(41, 14, 151) -5.2%, rgb(216, 68, 148) 103.3%);
   font-family: sans-serif;
 }
 .container{
@@ -9,6 +9,13 @@ body{
   padding: 30px;
   border-radius: 10px;
   box-shadow: (100, 100,111, 0.4)0px 7px 29px 0px;
+
+  .header{
+    display: flex;
+    justify-content:space-around;
+    font-size: 50px;
+  }
+  
 
   h1{
   text-align: center;
@@ -22,7 +29,10 @@ select{
   padding: 8px;
   font-size: 20px;
   border-radius: 8px;
-  background-color: rgb(200, 185, 214); 
+  background-color:#B63A95 ; 
+  color: white;
+}
+a{
   color: white;
 }
 .city{
@@ -55,7 +65,9 @@ margin-top: 8px;
 }
 footer{
 text-align: center;
- font-size:14px;
+ font-size:16px;
  line-height: 0.1;
+ color: white;
 }
+ 
  
